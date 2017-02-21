@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Phish Setlist Viewer</string>
+    <string name="log_in_fragment_splash">Log in Frag</string>
+    <string name="reg_fragment_splash">Registration Frag</string>
+    <string name="registration_button">Registration</string>
+    <string name="log_in_button">Log In</string>
+    <string name="log_in_display_text">User Name</string>
+    <string name="pw_display_text">Password</string>
+    <string name="display_log_in">Log In</string>
+    <string name="log_in_textView">User Registration</string>
+    <string name="reg_textView">User Log In</string>
+    <string name="display_textView">Please Choose A Setlist Option</string>
+    <string name="display_registration">Display Registration</string>
+    <string name="main_textView">Main Menu</string>
+    <string name="user_error">User Account Cannot Be Blank</string>
+    <string name="pw_error">User Account Cannot Be Blank</string>
+    <string name="pw_no_match">Passwords Do Not Match!</string>
+    <string name="_insert">_insert.php?user=\'</string>
+    <string name="and_pw"><![CDATA[\'&pw=\']]></string>
+    <string name="_get">_get.php?user=\'</string>
+    <string name="randomButton">Random Setlist</string>
+    <string name="recentButton">Recent Setlists</string>
+    <string name="targetButton">Specific Setlist</string>
+    <string name="random">random.php</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="recent">recent.php</string>
+    <string name="specific_text">Find A Setlist</string>
+    <string name="show_id_hint">Show ID</string>
+    <string name="fire_specific">View Setlist</string>
+</resources>

@@ -1,0 +1,100 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="0dp"
+    android:paddingBottom="0dp"
+    tools:context="group7.tcss450.uw.edu.challengeapp.LogInFragment">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/log_in_textView"
+        android:textSize="@dimen/log_in_textView_size"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:id="@+id/registration_textview"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true">
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:hint="@string/log_in_display_text"
+            android:textColorHint="@color/white"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/white"
+            android:ems="10"
+            android:id="@+id/registration_editText"
+            android:background="@drawable/customborder"/>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/registration_editText"
+            android:id="@+id/spacer_1"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:hint="@string/pw_display_text"
+            android:textColorHint="@color/white"
+            android:textColor="@color/white"
+            android:ems="10"
+            android:id="@+id/pw_edit_text_1"
+            android:layout_below = "@+id/spacer_1"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/customborder"/>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/pw_edit_text_1"
+            android:id="@+id/spacer_2"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:hint="@string/pw_display_text"
+            android:textColorHint="@color/white"
+            android:textColor="@color/white"
+            android:ems="10"
+            android:id="@+id/pw_edit_text_2"
+            android:layout_below = "@+id/spacer_2"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/customborder"/>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/pw_edit_text_2"
+            android:id="@+id/spacer_3"/>
+
+        <Button
+            android:text="@string/display_registration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/white"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:id="@+id/display_registration_results_button"
+            android:layout_below = "@+id/spacer_3"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/customborder"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>
